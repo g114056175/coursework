@@ -68,3 +68,15 @@ Request: 網頁需要包含當前時間 HH:MM:SS 格式，名稱與時間要明�
 - 更新響應式 CSS 適配手機版面
 - 更新 conversation.log
 - git add + commit + push 全部變更到 GitHub
+
+--- [11:33] USER ---
+Request: 時間顯示 00:00:00 未正確運作，太小，要與名稱一樣大作為主要元素
+
+--- [11:34] ASSISTANT ---
+- 重構 Hero 區塊為全置中佈局，名稱與時鐘上下堆疊
+- 時鐘字體大小改為 clamp(3.5rem, 8vw, 6rem)，與名稱完全一致
+- 移除舊的側邊容器和社交圖示，改用 GitHub 按鈕
+- 修復 JS：移除 template literal 改用字串拼接，增加 null check 和 readyState 檢查
+- 更新響應式 CSS 適配新版面
+- 更新 conversation.log
+- git add + commit + push 全部變更到 GitHub

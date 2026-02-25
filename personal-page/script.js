@@ -178,17 +178,14 @@ function initContactForm() {
 // ============================
 function initClock() {
   const clockEl = document.getElementById('clock');
-  const dateEl = document.getElementById('clockDate');
+  if (!clockEl) return;
 
   function update() {
     const now = new Date();
     const h = String(now.getHours()).padStart(2, '0');
     const m = String(now.getMinutes()).padStart(2, '0');
     const s = String(now.getSeconds()).padStart(2, '0');
-    clockEl.textContent = `${h}:${m}:${s}`;
-
-    const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-    dateEl.textContent = now.toLocaleDateString('en-US', options);
+    clockEl.textContent = h + ':' + m + ':' + s;
   }
 
   update();
@@ -198,7 +195,7 @@ function initClock() {
 // ============================
 // Init
 // ============================
-document.addEventListener('DOMContentLoaded', () => {
+function initAll() {
   createParticles();
   typewriter();
   initNavbar();
@@ -206,4 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
   initCounters();
   initContactForm();
   initClock();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initAll);
+} else {
+  initAll();
+}

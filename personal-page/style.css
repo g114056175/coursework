@@ -191,16 +191,20 @@ img {
 .hero {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
   padding: 120px 48px 80px;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
-.hero-content {
-  max-width: 600px;
+.hero-center {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-greeting {
@@ -215,7 +219,7 @@ img {
 
 .hero-name {
   font-family: var(--font-primary);
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(3.5rem, 8vw, 6rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 16px;
@@ -226,10 +230,26 @@ img {
   animation: fadeInUp 0.8s ease 0.1s both;
 }
 
+.hero-clock {
+  margin-bottom: 24px;
+  animation: fadeInUp 0.8s ease 0.15s both;
+}
+
+.clock-time {
+  font-family: 'Outfit', monospace;
+  font-size: clamp(3.5rem, 8vw, 6rem);
+  font-weight: 800;
+  letter-spacing: 6px;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .hero-tagline {
   font-size: 1.4rem;
   color: var(--text-secondary);
-  margin-bottom: 24px;
+  margin-bottom: 36px;
   min-height: 2rem;
   animation: fadeInUp 0.8s ease 0.2s both;
 }
@@ -250,115 +270,11 @@ img {
   }
 }
 
-.hero-description {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  line-height: 1.8;
-  margin-bottom: 36px;
-  animation: fadeInUp 0.8s ease 0.3s both;
-}
-
 .hero-cta {
   display: flex;
   gap: 16px;
   margin-bottom: 48px;
-  animation: fadeInUp 0.8s ease 0.4s both;
-}
-
-.hero-socials {
-  display: flex;
-  gap: 12px;
-  animation: fadeInUp 0.8s ease 0.5s both;
-}
-
-.social-link {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--radius-full);
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  transition: all var(--transition);
-}
-
-.social-link:hover {
-  color: var(--accent-1);
-  border-color: var(--accent-1);
-  background: rgba(124, 92, 252, 0.1);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(124, 92, 252, 0.2);
-}
-
-/* Clock Display */
-.hero-visual {
   animation: fadeInUp 0.8s ease 0.3s both;
-}
-
-.clock-container {
-  width: 320px;
-  height: 320px;
-  border-radius: var(--radius-lg);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-glass);
-  border: 1px solid var(--border-color);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-}
-
-.clock-glow {
-  position: absolute;
-  inset: -30px;
-  border-radius: var(--radius-lg);
-  background: var(--accent-gradient);
-  opacity: 0.1;
-  filter: blur(50px);
-  animation: pulse 3s ease-in-out infinite;
-}
-
-@keyframes pulse {
-
-  0%,
-  100% {
-    transform: scale(1);
-    opacity: 0.1;
-  }
-
-  50% {
-    transform: scale(1.1);
-    opacity: 0.2;
-  }
-}
-
-.clock-display {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  z-index: 1;
-}
-
-.clock-time {
-  font-family: 'Outfit', monospace;
-  font-size: 4rem;
-  font-weight: 800;
-  letter-spacing: 4px;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: none;
-}
-
-.clock-date {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 /* Scroll Indicator */
@@ -910,15 +826,12 @@ img {
    ============================ */
 @media (max-width: 900px) {
   .hero {
-    flex-direction: column-reverse;
-    gap: 48px;
-    text-align: center;
     padding: 120px 24px 80px;
   }
 
-  .hero-cta,
-  .hero-socials {
-    justify-content: center;
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
   }
 
   .clock-container {
@@ -927,7 +840,7 @@ img {
   }
 
   .clock-time {
-    font-size: 2.8rem;
+    font-size: clamp(2.5rem, 10vw, 4rem);
   }
 
   .about-grid,
