@@ -30,3 +30,22 @@ Request: 提供 GitHub workspace URL: https://github.com/g114056175/DRL_hw1.git
 --- [11:18] ASSISTANT ---
 - 將 Hero 區塊的 GitHub 圖示連結更新為 https://github.com/g114056175/DRL_hw1（target="_blank" 新分頁開啟）
 - 更新 conversation.log 記錄此次對話
+
+--- [11:19] USER ---
+Request: 把檔案 push 上 GitHub workspace
+
+--- [11:19] ASSISTANT ---
+執行了以下 Git 操作：
+1. git init — 初始化 Git 倉庫
+2. git remote add origin https://github.com/g114056175/DRL_hw1.git — 設定遠端倉庫
+3. git add personal-page/ — 加入 personal-page 資料夾（4 個檔案）
+4. git commit -m "Add personal web page with DRL_hw1 branding" — 提交變更
+5. git push -u origin master — 成功推送到 GitHub
+
+--- [11:22] USER ---
+Request: 讓別人可以訪問網頁，並補上 README.md 含網頁連結
+
+--- [11:22] ASSISTANT ---
+- 建立 README.md，包含專案說明、功能列表、GitHub Pages 連結（https://g114056175.github.io/DRL_hw1/personal-page/）
+- git add + commit + push README.md 到 GitHub
+- 提供 GitHub Pages 設定步驟指引（Settings → Pages → master branch → Save）
