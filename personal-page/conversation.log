@@ -1,0 +1,32 @@
+=== Conversation Log - Personal Web Page ===
+Date: 2026-02-25
+
+--- [11:00] USER ---
+Request: 建立一個個人網頁，名稱為 "Test"
+
+--- [11:00] ASSISTANT ---
+建立了三個檔案：
+- index.html：完整頁面結構，包含 Hero、About、Skills、Projects、Contact 區塊
+- style.css：深色主題設計，使用 glassmorphism、漸層色彩、響應式佈局
+- script.js：互動功能 — 浮動粒子、打字機效果、滾動動畫、計數器動畫、表單處理
+
+--- [11:04] USER ---
+Request: 開啟網頁做測試
+
+--- [11:04] ASSISTANT ---
+使用 Start-Process 指令在預設瀏覽器中開啟 index.html
+
+--- [11:12] USER ---
+Request: 把名稱改成 "DRL_hw1"，連上 GitHub，並記錄對話 log
+
+--- [11:12] ASSISTANT ---
+- 將頁面中所有 "Test" 替換為 "DRL_hw1"（標題、導航列、Hero、About、Footer 等共 7 處）
+- 建立 conversation.log 記錄對話內容
+- 等待使用者提供 GitHub 帳號以連結到頁面
+
+--- [11:18] USER ---
+Request: 提供 GitHub workspace URL: https://github.com/g114056175/DRL_hw1.git
+
+--- [11:18] ASSISTANT ---
+- 將 Hero 區塊的 GitHub 圖示連結更新為 https://github.com/g114056175/DRL_hw1（target="_blank" 新分頁開啟）
+- 更新 conversation.log 記錄此次對話
