@@ -49,3 +49,22 @@ Request: 讓別人可以訪問網頁，並補上 README.md 含網頁連結
 - 建立 README.md，包含專案說明、功能列表、GitHub Pages 連結（https://g114056175.github.io/DRL_hw1/personal-page/）
 - git add + commit + push README.md 到 GitHub
 - 提供 GitHub Pages 設定步驟指引（Settings → Pages → master branch → Save）
+
+--- [11:27] USER ---
+Request: 把預覽圖 112559.png 顯示在 README 上，push 全部並更新 log
+
+--- [11:27] ASSISTANT ---
+- 在 README.md 加入 Preview 區塊，嵌入 personal-page/112559.png 預覽圖
+- 更新 conversation.log
+- git add 全部檔案 + commit + push 到 GitHub
+
+--- [11:28] USER ---
+Request: 網頁需要包含當前時間 HH:MM:SS 格式，名稱與時間要明顯清楚
+
+--- [11:29] ASSISTANT ---
+- 將 Hero 區塊的頭像替換為即時時鐘顯示（HH:MM:SS + 日期）
+- 新增 CSS 樣式：glassmorphism 容器、漸層發光、大字體時鐘
+- 新增 JS initClock() 函數，每秒更新時間
+- 更新響應式 CSS 適配手機版面
+- 更新 conversation.log
+- git add + commit + push 全部變更到 GitHub

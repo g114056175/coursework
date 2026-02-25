@@ -174,6 +174,28 @@ function initContactForm() {
 }
 
 // ============================
+// Real-Time Clock
+// ============================
+function initClock() {
+  const clockEl = document.getElementById('clock');
+  const dateEl = document.getElementById('clockDate');
+
+  function update() {
+    const now = new Date();
+    const h = String(now.getHours()).padStart(2, '0');
+    const m = String(now.getMinutes()).padStart(2, '0');
+    const s = String(now.getSeconds()).padStart(2, '0');
+    clockEl.textContent = `${h}:${m}:${s}`;
+
+    const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+    dateEl.textContent = now.toLocaleDateString('en-US', options);
+  }
+
+  update();
+  setInterval(update, 1000);
+}
+
+// ============================
 // Init
 // ============================
 document.addEventListener('DOMContentLoaded', () => {
@@ -183,4 +205,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initReveal();
   initCounters();
   initContactForm();
+  initClock();
 });

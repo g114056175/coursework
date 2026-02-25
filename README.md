@@ -17,6 +17,10 @@ A modern, visually stunning personal portfolio web page built with pure HTML, CS
 
 👉 **[Click here to view the web page](https://g114056175.github.io/DRL_hw1/personal-page/)**
 
+### 📸 Preview
+
+![Web Page Preview](personal-page/112559.png)
+
 ### 📁 Project Structure
 ```
 personal-page/
