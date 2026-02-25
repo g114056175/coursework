@@ -91,3 +91,12 @@ Request: README 補上 summary，更新 conversation.log，讓人知道 prompt �
 - 更新 Project Structure 的註解說明
 - 更新 conversation.log 記錄此次對話
 - git add + commit + push 全部變更到 GitHub
+
+--- [12:07] USER ---
+Request: 把 web 上的名稱改成 g114056175
+
+--- [12:07] ASSISTANT ---
+- 將頁面中所有顯示名稱 "DRL_hw1" 替換為 "g114056175"（標題、導航列、Hero、About、Footer 共 6 處）
+- GitHub 連結路徑維持不變
+- 更新 conversation.log
+- git add + commit + push 全部變更到 GitHub
