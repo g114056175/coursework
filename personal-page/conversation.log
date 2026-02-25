@@ -80,3 +80,14 @@ Request: 時間顯示 00:00:00 未正確運作，太小，要與名稱一樣大�
 - 更新響應式 CSS 適配新版面
 - 更新 conversation.log
 - git add + commit + push 全部變更到 GitHub
+
+--- [11:57] USER ---
+Request: README 補上 summary，更新 conversation.log，讓人知道 prompt 存放在此處
+
+--- [11:57] ASSISTANT ---
+- 在 README.md 新增 Summary 區塊，描述專案背景與主要功能
+- 在 README.md 新增 Prompt Log 區塊，指向 conversation.log 檔案
+- 更新 Features 加入即時時鐘項目
+- 更新 Project Structure 的註解說明
+- 更新 conversation.log 記錄此次對話
+- git add + commit + push 全部變更到 GitHub
