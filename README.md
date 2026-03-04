@@ -22,7 +22,7 @@ The entire development process was done through AI-assisted pair programming, an
 
 ### 🔗 Live Demo
 
-👉 **[Click here to view the web page](https://g114056175.github.io/DRL_hw1/personal-page/)**
+👉 **[Click here to view the web page](https://g114056175.github.io/DRL_DIC1/personal-page/)**
 
 ### 📸 Preview
 
