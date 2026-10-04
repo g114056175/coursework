@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-10-04",
   "method": "git subtree add without squash; preserve source refs as namespaced tags",
-  "originalRepositoriesRetained": true,
+  "originalRepositoriesRetained": false,
   "sources": [
     {
       "source": "https://github.com/g114056175/AIOT_hw3",
@@ -21,7 +21,9 @@
         }
       ],
       "sourceCommittedAt": "2025-10-24T14:42:07+08:00",
-      "sourceLastUpdatedDate": "2025-10-24"
+      "sourceLastUpdatedDate": "2025-10-24",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/AIOT_hw4",
@@ -40,7 +42,9 @@
         }
       ],
       "sourceCommittedAt": "2025-11-27T16:04:13+08:00",
-      "sourceLastUpdatedDate": "2025-11-27"
+      "sourceLastUpdatedDate": "2025-11-27",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/AIOT_hw5",
@@ -59,7 +63,9 @@
         }
       ],
       "sourceCommittedAt": "2025-12-03T12:19:43+08:00",
-      "sourceLastUpdatedDate": "2025-12-03"
+      "sourceLastUpdatedDate": "2025-12-03",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/AIOT_hw6",
@@ -78,7 +84,9 @@
         }
       ],
       "sourceCommittedAt": "2025-12-04T16:37:01+08:00",
-      "sourceLastUpdatedDate": "2025-12-04"
+      "sourceLastUpdatedDate": "2025-12-04",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/DRL_DIC1",
@@ -97,7 +105,9 @@
         }
       ],
       "sourceCommittedAt": "2026-03-04T14:31:26+08:00",
-      "sourceLastUpdatedDate": "2026-03-04"
+      "sourceLastUpdatedDate": "2026-03-04",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/DRL_hw1",
@@ -128,7 +138,9 @@
         }
       ],
       "sourceCommittedAt": "2026-05-20T11:18:02+08:00",
-      "sourceLastUpdatedDate": "2026-05-20"
+      "sourceLastUpdatedDate": "2026-05-20",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/DRL_hw2",
@@ -147,7 +159,9 @@
         }
       ],
       "sourceCommittedAt": "2026-04-15T20:56:18+08:00",
-      "sourceLastUpdatedDate": "2026-04-15"
+      "sourceLastUpdatedDate": "2026-04-15",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/DRL_hw3",
@@ -166,7 +180,9 @@
         }
       ],
       "sourceCommittedAt": "2026-05-10T22:04:07+08:00",
-      "sourceLastUpdatedDate": "2026-05-10"
+      "sourceLastUpdatedDate": "2026-05-10",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/DRL_FinalProject",
@@ -185,7 +201,9 @@
         }
       ],
       "sourceCommittedAt": "2026-04-26T12:24:28+08:00",
-      "sourceLastUpdatedDate": "2026-04-26"
+      "sourceLastUpdatedDate": "2026-04-26",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/school_data",
@@ -204,7 +222,9 @@
         }
       ],
       "sourceCommittedAt": "2025-10-24T16:25:07+08:00",
-      "sourceLastUpdatedDate": "2025-10-24"
+      "sourceLastUpdatedDate": "2025-10-24",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     },
     {
       "source": "https://github.com/g114056175/Data_Models_And_Processing",
@@ -223,7 +243,9 @@
         }
       ],
       "sourceCommittedAt": "2025-12-26T18:25:39+08:00",
-      "sourceLastUpdatedDate": "2025-12-26"
+      "sourceLastUpdatedDate": "2025-12-26",
+      "originalRepositoryDeleted": true,
+      "originalRepositoryDeletionDate": "2026-10-04"
     }
   ],
   "adjustments": [
