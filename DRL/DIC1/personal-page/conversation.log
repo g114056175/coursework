@@ -1,0 +1,109 @@
+=== Conversation Log - Personal Web Page ===
+Date: 2026-02-25
+
+--- [11:00] USER ---
+Request: 建立一個個人網頁，名稱為 "Test"
+
+--- [11:00] ASSISTANT ---
+建立了三個檔案：
+- index.html：完整頁面結構，包含 Hero、About、Skills、Projects、Contact 區塊
+- style.css：深色主題設計，使用 glassmorphism、漸層色彩、響應式佈局
+- script.js：互動功能 — 浮動粒子、打字機效果、滾動動畫、計數器動畫、表單處理
+
+--- [11:04] USER ---
+Request: 開啟網頁做測試
+
+--- [11:04] ASSISTANT ---
+使用 Start-Process 指令在預設瀏覽器中開啟 index.html
+
+--- [11:12] USER ---
+Request: 把名稱改成 "DRL_hw1"，連上 GitHub，並記錄對話 log
+
+--- [11:12] ASSISTANT ---
+- 將頁面中所有 "Test" 替換為 "DRL_hw1"（標題、導航列、Hero、About、Footer 等共 7 處）
+- 建立 conversation.log 記錄對話內容
+- 等待使用者提供 GitHub 帳號以連結到頁面
+
+--- [11:18] USER ---
+Request: 提供 GitHub workspace URL: https://github.com/g114056175/DRL_hw1.git
+
+--- [11:18] ASSISTANT ---
+- 將 Hero 區塊的 GitHub 圖示連結更新為 https://github.com/g114056175/DRL_hw1（target="_blank" 新分頁開啟）
+- 更新 conversation.log 記錄此次對話
+
+--- [11:19] USER ---
+Request: 把檔案 push 上 GitHub workspace
+
+--- [11:19] ASSISTANT ---
+執行了以下 Git 操作：
+1. git init — 初始化 Git 倉庫
+2. git remote add origin https://github.com/g114056175/DRL_hw1.git — 設定遠端倉庫
+3. git add personal-page/ — 加入 personal-page 資料夾（4 個檔案）
+4. git commit -m "Add personal web page with DRL_hw1 branding" — 提交變更
+5. git push -u origin master — 成功推送到 GitHub
+
+--- [11:22] USER ---
+Request: 讓別人可以訪問網頁，並補上 README.md 含網頁連結
+
+--- [11:22] ASSISTANT ---
+- 建立 README.md，包含專案說明、功能列表、GitHub Pages 連結（https://g114056175.github.io/DRL_hw1/personal-page/）
+- git add + commit + push README.md 到 GitHub
+- 提供 GitHub Pages 設定步驟指引（Settings → Pages → master branch → Save）
+
+--- [11:27] USER ---
+Request: 把預覽圖 112559.png 顯示在 README 上，push 全部並更新 log
+
+--- [11:27] ASSISTANT ---
+- 在 README.md 加入 Preview 區塊，嵌入 personal-page/112559.png 預覽圖
+- 更新 conversation.log
+- git add 全部檔案 + commit + push 到 GitHub
+
+--- [11:28] USER ---
+Request: 網頁需要包含當前時間 HH:MM:SS 格式，名稱與時間要明顯清楚
+
+--- [11:29] ASSISTANT ---
+- 將 Hero 區塊的頭像替換為即時時鐘顯示（HH:MM:SS + 日期）
+- 新增 CSS 樣式：glassmorphism 容器、漸層發光、大字體時鐘
+- 新增 JS initClock() 函數，每秒更新時間
+- 更新響應式 CSS 適配手機版面
+- 更新 conversation.log
+- git add + commit + push 全部變更到 GitHub
+
+--- [11:33] USER ---
+Request: 時間顯示 00:00:00 未正確運作，太小，要與名稱一樣大作為主要元素
+
+--- [11:34] ASSISTANT ---
+- 重構 Hero 區塊為全置中佈局，名稱與時鐘上下堆疊
+- 時鐘字體大小改為 clamp(3.5rem, 8vw, 6rem)，與名稱完全一致
+- 移除舊的側邊容器和社交圖示，改用 GitHub 按鈕
+- 修復 JS：移除 template literal 改用字串拼接，增加 null check 和 readyState 檢查
+- 更新響應式 CSS 適配新版面
+- 更新 conversation.log
+- git add + commit + push 全部變更到 GitHub
+
+--- [11:57] USER ---
+Request: README 補上 summary，更新 conversation.log，讓人知道 prompt 存放在此處
+
+--- [11:57] ASSISTANT ---
+- 在 README.md 新增 Summary 區塊，描述專案背景與主要功能
+- 在 README.md 新增 Prompt Log 區塊，指向 conversation.log 檔案
+- 更新 Features 加入即時時鐘項目
+- 更新 Project Structure 的註解說明
+- 更新 conversation.log 記錄此次對話
+- git add + commit + push 全部變更到 GitHub
+
+--- [12:07] USER ---
+Request: 把 web 上的名稱改成 g114056175
+
+--- [12:07] ASSISTANT ---
+- 將頁面中所有顯示名稱 "DRL_hw1" 替換為 "g114056175"（標題、導航列、Hero、About、Footer 共 6 處）
+- GitHub 連結路徑維持不變
+- 更新 conversation.log
+- git add + commit + push 全部變更到 GitHub
+
+--- [12:10] USER ---
+Request: 更新了預覽圖 112559.png，再 push 一次
+
+--- [12:10] ASSISTANT ---
+- 更新 conversation.log
+- git add + commit + push 全部變更（含更新的圖片）到 GitHub
