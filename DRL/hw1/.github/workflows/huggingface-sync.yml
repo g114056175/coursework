@@ -1,0 +1,50 @@
+name: Sync to Hugging Face hub
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Debug - Check token presence
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "ERROR: HF_TOKEN is EMPTY! Please check your GitHub Secrets."
+            exit 1
+          else
+            echo "HF_TOKEN is set (length: ${#HF_TOKEN})"
+          fi
+
+      - name: Install huggingface_hub
+        run: pip install huggingface_hub
+
+      - name: Upload to Hugging Face Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import os
+          from huggingface_hub import HfApi
+
+          token = os.environ["HF_TOKEN"].strip()
+          print(f"Token length: {len(token)}")
+
+          api = HfApi()
+          api.upload_folder(
+              folder_path=".",
+              repo_id="g114056175/DRL-hw1-demo",
+              repo_type="space",
+              token=token,
+              ignore_patterns=[".git*", ".github", "__pycache__", "*.pyc", "img/"],
+          )
+          print("Upload complete!")
+          EOF
