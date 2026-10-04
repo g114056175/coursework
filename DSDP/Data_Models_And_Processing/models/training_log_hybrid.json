@@ -1,0 +1,29 @@
+[
+  {
+    "grid_x": 80,
+    "grid_y": 95,
+    "grid_rank": 1,
+    "model": "Hybrid_LSTM",
+    "best_val_loss": 4.6676131884257,
+    "epochs_trained": 40,
+    "training_time": 31.18104362487793
+  },
+  {
+    "grid_x": 80,
+    "grid_y": 92,
+    "grid_rank": 2,
+    "model": "Hybrid_LSTM",
+    "best_val_loss": 4.4508397579193115,
+    "epochs_trained": 22,
+    "training_time": 16.23696279525757
+  },
+  {
+    "grid_x": 80,
+    "grid_y": 93,
+    "grid_rank": 3,
+    "model": "Hybrid_LSTM",
+    "best_val_loss": 4.039893925189972,
+    "epochs_trained": 46,
+    "training_time": 32.91109275817871
+  }
+]

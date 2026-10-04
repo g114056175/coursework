@@ -1,0 +1,32 @@
+[
+  {
+    "grid_x": 80,
+    "grid_y": 95,
+    "grid_rank": 1,
+    "model": "LSTM",
+    "best_val_loss": 184.81663767496744,
+    "epochs_trained": 90,
+    "training_time": 59.63081216812134,
+    "model_path": "models/grid_80_95_lstm.pt"
+  },
+  {
+    "grid_x": 80,
+    "grid_y": 92,
+    "grid_rank": 2,
+    "model": "LSTM",
+    "best_val_loss": 180.89342308044434,
+    "epochs_trained": 56,
+    "training_time": 44.18330454826355,
+    "model_path": "models/grid_80_92_lstm.pt"
+  },
+  {
+    "grid_x": 80,
+    "grid_y": 93,
+    "grid_rank": 3,
+    "model": "LSTM",
+    "best_val_loss": 231.06030321121216,
+    "epochs_trained": 26,
+    "training_time": 20.950727224349976,
+    "model_path": "models/grid_80_93_lstm.pt"
+  }
+]

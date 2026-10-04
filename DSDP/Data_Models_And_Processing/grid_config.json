@@ -1,0 +1,27 @@
+{
+  "top_grids": [
+    {
+      "rank": 1,
+      "x": 80,
+      "y": 95,
+      "total_count": 122068
+    },
+    {
+      "rank": 2,
+      "x": 80,
+      "y": 92,
+      "total_count": 118145
+    },
+    {
+      "rank": 3,
+      "x": 80,
+      "y": 93,
+      "total_count": 113517
+    }
+  ],
+  "metadata": {
+    "total_grids": 26523,
+    "data_days": 75,
+    "time_slots_per_day": 48
+  }
+}
