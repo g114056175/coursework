@@ -1,0 +1,10 @@
+# Environments
+.env
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# RAG Index
+RAG_file/
