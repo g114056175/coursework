@@ -74,8 +74,8 @@ The system uses TF-IDF (Term Frequency-Inverse Document Frequency) vectorization
 ## Local Development Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/g114056175/AIOT_hw3.git
-   cd AIOT_hw3
+   git clone https://github.com/g114056175/coursework.git
+   cd coursework/AIOT/hw3
    ```
 
 2. Install dependencies:

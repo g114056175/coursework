@@ -11,7 +11,7 @@ pinned: false
 
 > **Course**: Deep Reinforcement Learning HW1  
 > **Author**: [g114056175](https://github.com/g114056175)  
-> **Develop with Antigravity**: [conversation.log](https://github.com/g114056175/DRL_hw1/blob/main/conversation.log)
+> **Develop with Antigravity**: [conversation.log](https://github.com/g114056175/coursework/blob/main/DRL/hw1/conversation.log)
 
 ---
 
@@ -98,8 +98,8 @@ An interactive **nxn Grid World** web application built with **Flask** and purel
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/g114056175/DRL_hw1.git
-cd DRL_hw1
+git clone https://github.com/g114056175/coursework.git
+cd coursework/DRL/hw1
 
 # 2. Create virtual environment (optional but recommended)
 python -m venv venv

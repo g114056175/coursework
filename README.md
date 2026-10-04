@@ -15,6 +15,8 @@
 
 網頁展示入口見 [課程展示頁](https://g114056175.github.io/coursework/)。原有倉庫與展示網址目前保留，供搬遷後人工核對。
 
+DRL HW1 的 Hugging Face 同步已調整為手動工作流程；在新倉庫設定 `HF_TOKEN` secret 後，從 Actions 執行「DRL HW1 - Sync to Hugging Face」。本次搬遷不會更新既有 Hugging Face Space。
+
 <details>
 <summary>搬遷與新增作業</summary>
 

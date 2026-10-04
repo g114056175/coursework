@@ -38,7 +38,7 @@
   ```
 
 ### 4. GitHub 倉庫推送 ✓
-- **倉庫**：https://github.com/g114056175/AIOT_hw6.git
+- **倉庫**：https://github.com/g114056175/coursework/tree/main/AIOT/hw6
 - **分支**：main
 - **提交**：
   1. `Initial commit: Weather forecast and movie info dashboard with Streamlit`
@@ -88,8 +88,8 @@ AIOT_class/
 
 ```bash
 # 1. 克隆倉庫
-git clone https://github.com/g114056175/AIOT_hw6.git
-cd AIOT_hw6
+git clone https://github.com/g114056175/coursework.git
+cd coursework/AIOT/hw6
 
 # 2. 安裝依賴
 pip install -r requirements.txt
@@ -162,7 +162,7 @@ streamlit run app.py
 
 ## 🔗 相關資源
 
-- GitHub 倉庫：https://github.com/g114056175/AIOT_hw6
+- GitHub 倉庫：https://github.com/g114056175/coursework/tree/main/AIOT/hw6
 - Streamlit 文檔：https://docs.streamlit.io/
 - CWA API：https://opendata.cwa.gov.tw/
 - BeautifulSoup 文檔：https://www.crummy.com/software/BeautifulSoup/

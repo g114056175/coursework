@@ -1,0 +1,43 @@
+name: DRL HW1 - Sync to Hugging Face
+
+# Run manually after adding HF_TOKEN in this repository's Actions secrets.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: drl-hw1-huggingface
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Check required secret
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: test -n "$HF_TOKEN" || { echo 'Add HF_TOKEN to the repository Actions secrets before running this workflow.'; exit 1; }
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install upload client
+        run: python -m pip install huggingface_hub
+      - name: Upload DRL HW1 only
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os
+          from huggingface_hub import HfApi
+          HfApi(token=os.environ['HF_TOKEN'].strip()).upload_folder(
+              folder_path='DRL/hw1',
+              repo_id='g114056175/DRL-hw1-demo',
+              repo_type='space',
+              ignore_patterns=['.git*', '.github/**', '__pycache__/**', '*.pyc', 'img/**'],
+          )
+          PY

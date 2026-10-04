@@ -164,8 +164,8 @@ A 10-minute video recording covering:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/g114056175/DRL_FinalProject.git
-cd DRL_FinalProject
+git clone https://github.com/g114056175/coursework.git
+cd coursework/DRL/final-project
 
 # Install dependencies
 pip install -r requirements.txt
@@ -233,7 +233,7 @@ python main.py
 ## 📞 Contact & Support
 
 For questions or inquiries regarding this project:
-- GitHub Repository: [https://github.com/g114056175/DRL_FinalProject](https://github.com/g114056175/DRL_FinalProject)
+- GitHub Repository: [coursework/DRL/final-project](https://github.com/g114056175/coursework/tree/main/DRL/final-project)
 - [Additional contact information]
 
 ---

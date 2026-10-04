@@ -22,7 +22,7 @@
 ## 📁 項目結構
 
 ```
-AIOT_class/
+coursework/AIOT/hw6/
 ├── app.py                      # Streamlit 主應用程序
 ├── api_crawler.py              # API 爬蟲腳本
 ├── movie_crawler.py            # 電影網站爬蟲腳本

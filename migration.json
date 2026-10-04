@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "method": "git subtree add without squash; preserve source refs as namespaced tags",
+  "originalRepositoriesRetained": true,
+  "sources": [
+    {
+      "source": "https://github.com/g114056175/AIOT_hw3",
+      "branch": "main",
+      "path": "AIOT/hw3",
+      "sourceCommit": "7cf3cb2f900a406e7f23f08821761f37d5f05700",
+      "sourceTree": "8e18ee8c92395bc277ef02451128103bf85bb0df",
+      "importCommit": "322dc722258df4511380005f5cc65fe2392a5edb",
+      "importedTree": "8e18ee8c92395bc277ef02451128103bf85bb0df",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/AIOT_hw3/branches/main",
+          "object": "7cf3cb2f900a406e7f23f08821761f37d5f05700"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/AIOT_hw4",
+      "branch": "master",
+      "path": "AIOT/hw4",
+      "sourceCommit": "c6b096f7c4928ad7768a50ad54f82cce892061a2",
+      "sourceTree": "53edfb3c545a803c716d498ab50ca981e68a4d65",
+      "importCommit": "02cac962e7a572b8c599debd72e66cdd2cf87fbc",
+      "importedTree": "53edfb3c545a803c716d498ab50ca981e68a4d65",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/AIOT_hw4/branches/master",
+          "object": "c6b096f7c4928ad7768a50ad54f82cce892061a2"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/AIOT_hw5",
+      "branch": "main",
+      "path": "AIOT/hw5",
+      "sourceCommit": "c98018f7832fa71420c278da0706e3b14ac9e0fe",
+      "sourceTree": "3528520a813ffc3225ab07d8fb19ba187fe1954d",
+      "importCommit": "042cf9bc06ccbfeb7f006fefda53a1965ff915a8",
+      "importedTree": "3528520a813ffc3225ab07d8fb19ba187fe1954d",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/AIOT_hw5/branches/main",
+          "object": "c98018f7832fa71420c278da0706e3b14ac9e0fe"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/AIOT_hw6",
+      "branch": "main",
+      "path": "AIOT/hw6",
+      "sourceCommit": "2224c6c24b0c4c618a0afdca845d90c72ddb50f3",
+      "sourceTree": "9a5a8abacbfbe4a55e0bf8090b7339063a8b923f",
+      "importCommit": "29a96b73e06aa4685f5e1df8d1ee768b7812a51c",
+      "importedTree": "9a5a8abacbfbe4a55e0bf8090b7339063a8b923f",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/AIOT_hw6/branches/main",
+          "object": "2224c6c24b0c4c618a0afdca845d90c72ddb50f3"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/DRL_DIC1",
+      "branch": "master",
+      "path": "DRL/DIC1",
+      "sourceCommit": "2de9d6c16030251f50965a013c85ab6e27e85856",
+      "sourceTree": "a214a6bb24e2ba5f23d3013ea4fbb0eebbadd5ca",
+      "importCommit": "476810bb139ca81b7dda03e22e0884974436661b",
+      "importedTree": "a214a6bb24e2ba5f23d3013ea4fbb0eebbadd5ca",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/DRL_DIC1/branches/master",
+          "object": "2de9d6c16030251f50965a013c85ab6e27e85856"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/DRL_hw1",
+      "branch": "main",
+      "path": "DRL/hw1",
+      "sourceCommit": "e4e619b6226035569c11b048b400234750f1c6fb",
+      "sourceTree": "b2673c5dcd1fe9c99d12101f3963ddad86c4c470",
+      "importCommit": "36f3106a3c2e42c0295dd11731b964edb684b1a0",
+      "importedTree": "b2673c5dcd1fe9c99d12101f3963ddad86c4c470",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/DRL_hw1/branches/feat-policy-iteration",
+          "object": "c3469ba84c8a0f3f7a117e88624baa66a4887ff3"
+        },
+        {
+          "tag": "source/DRL_hw1/branches/feat/random-policy-eval",
+          "object": "1c4227137880b23e345f9310ac7461b832c090f3"
+        },
+        {
+          "tag": "source/DRL_hw1/branches/main",
+          "object": "e4e619b6226035569c11b048b400234750f1c6fb"
+        },
+        {
+          "tag": "source/DRL_hw1/other/pull/1/head",
+          "object": "1c4227137880b23e345f9310ac7461b832c090f3"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/DRL_hw2",
+      "branch": "main",
+      "path": "DRL/hw2",
+      "sourceCommit": "2057b91dff35e6dc0469893353ae8100322512be",
+      "sourceTree": "846a351f365111090d0a86261a549bd692fdfb93",
+      "importCommit": "99cde46975bc22b6666214c53d1203e6b594edfe",
+      "importedTree": "846a351f365111090d0a86261a549bd692fdfb93",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/DRL_hw2/branches/main",
+          "object": "2057b91dff35e6dc0469893353ae8100322512be"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/DRL_hw3",
+      "branch": "master",
+      "path": "DRL/hw3",
+      "sourceCommit": "7a6554ad4bd115c3419fe8483deb10f9b3a6abe5",
+      "sourceTree": "438cd274ed6bf3e6920d96383ad967ddcafad2a9",
+      "importCommit": "fbe5597ba53be7a8ead1adb2fe3f756ac8f83d88",
+      "importedTree": "438cd274ed6bf3e6920d96383ad967ddcafad2a9",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/DRL_hw3/branches/master",
+          "object": "7a6554ad4bd115c3419fe8483deb10f9b3a6abe5"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/DRL_FinalProject",
+      "branch": "main",
+      "path": "DRL/final-project",
+      "sourceCommit": "74813275d76091e4ca1be6116c09c9efe2ba03fc",
+      "sourceTree": "e3bbdf6121ee6b64ce79cf23e8b6a448cb9e2d0b",
+      "importCommit": "176c928b132de6cf43e33efb9a50e1d0f0ea38d2",
+      "importedTree": "e3bbdf6121ee6b64ce79cf23e8b6a448cb9e2d0b",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/DRL_FinalProject/branches/main",
+          "object": "74813275d76091e4ca1be6116c09c9efe2ba03fc"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/school_data",
+      "branch": "main",
+      "path": "IR/school_data",
+      "sourceCommit": "4f59f3b07dc554a283940a7bd4282a22a85665a4",
+      "sourceTree": "9a851f73432bc357fa777b340734935b0639c22d",
+      "importCommit": "4197373e635458114b44bd568de59a882e491748",
+      "importedTree": "9a851f73432bc357fa777b340734935b0639c22d",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/school_data/branches/main",
+          "object": "4f59f3b07dc554a283940a7bd4282a22a85665a4"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/g114056175/Data_Models_And_Processing",
+      "branch": "main",
+      "path": "DSDP/Data_Models_And_Processing",
+      "sourceCommit": "1a3a3797e9413d7d4c1be50d3d1f406fd1aa774c",
+      "sourceTree": "b6497158c8a052b72c22609eb25cfbe8f3b97a81",
+      "importCommit": "af645b74d55064f8b9061cf8776fda0cfe07b84f",
+      "importedTree": "b6497158c8a052b72c22609eb25cfbe8f3b97a81",
+      "exactTreeMatch": true,
+      "sourceHistoryReachable": true,
+      "sourceRefSnapshots": [
+        {
+          "tag": "source/Data_Models_And_Processing/branches/main",
+          "object": "1a3a3797e9413d7d4c1be50d3d1f406fd1aa774c"
+        }
+      ]
+    }
+  ],
+  "adjustments": [
+    "Root course index and Pages entry point",
+    "Per-project clone links and DIC1 Pages URL",
+    "DRL HW1 Hugging Face workflow relocated, limited to its folder and manual execution; HF_TOKEN must be configured separately"
+  ],
+  "lfs": {
+    "project": "DRL/hw1",
+    "objectCount": 8,
+    "allSha256Verified": true,
+    "originalPointerBlobsPreserved": true
+  }
+}

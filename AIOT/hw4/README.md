@@ -47,8 +47,8 @@ You can interact with the application deployed on Streamlit Cloud via the follow
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/g114056175/AIOT_hw4.git
-    cd AIOT_hw4
+    git clone https://github.com/g114056175/coursework.git
+    cd coursework/AIOT/hw4
     ```
 
 2.  **Install required packages**:

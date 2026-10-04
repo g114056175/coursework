@@ -31,8 +31,8 @@
 
 ```bash
 # 克隆專案
-git clone <your-repo-url>
-cd data_mah_hw
+git clone https://github.com/g114056175/coursework.git
+cd coursework/DSDP/Data_Models_And_Processing
 
 # 安裝依賴
 pip install -r requirements.txt
