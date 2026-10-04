@@ -1,0 +1,92 @@
+[Turn 1]
+User Prompt:
+連接這個github 空間
+https://github.com/g114056175/DRL_hw2.git
+
+替我完成這個作業 要有良好的軟體工程規預 與計劃書spec 操作流程(給agent看 或是工程檢驗用) 還有有個解釋清楚 有結果圖片 分析等 顯示在github 上的readme.md
+
+作業需求如下
+HW2: Q-learning 與 SARSA 演算法之比較研究
+一、作業目的
+本作業旨在實作並比較兩種經典強化學習演算法——Q-learning 與 SARSA，透過相同環境與參數設定，分析其學習行為、收斂特性以及最終策略差異。
+...（其餘作業條件與圖片範例）
+
+Assistant Response:
+已同步遠端並完成實作與文件骨架，包含:
+- `environment.py`, `agents.py`, `run_experiment.py`
+- `docs/spec.md`, `docs/engineering_workflow.md`
+- `README.md`
+- `results/` 圖與數據
+並說明可再協助 commit/push。
+
+[Turn 2]
+User Prompt:
+說明這個作業的目的是什麼?
+results\reward_curve.png 這個檔案 為何曲線這麼平穩 這是正常的嗎?
+根據作業的範例圖 他還有另外兩條線? 那兩條視作什麼的?
+然後 results\policy_comparison.png 這圖片 又是做什麼?
+
+Assistant Response:
+說明作業目標是比較 Q-learning 與 SARSA 的收斂、穩定性、策略風險差異。
+說明曲線平穩是因為「多次平均 + 平滑」。
+說明範例圖的額外兩條線通常是文獻/教材基準線（Sutton & Barto）。
+說明 policy 圖用來驗證最終策略是否貼 cliff（冒險）或繞遠（保守）。
+
+[Turn 3]
+User Prompt:
+那先不要抓平均 然後可能可以再補充一些資訊 或是結論在寫的祥細一點...
+
+Assistant Response:
+改成主圖使用 raw run（不平均、不平滑），新增穩定性圖，並在 README 補強結論與作業第六點對應內容。
+
+[Turn 4]
+User Prompt:
+為何這邊的reward 是負 那麼多到 -2500 但老師的參考僅-100...
+results\policy_comparison.png 幫我換成箭頭 並寫要項參考圖片一樣連出一條路徑
+並說明理論比較與討論是否與實驗一致，為何 SARSA 沒走最短路徑?
+
+Assistant Response:
+說明 `-2500` 來自單回合多次掉崖（每次 `-100`）。
+修改策略圖為「箭頭 + 路徑虛線」。
+補充理論對照:
+- Q-learning 用 `max_a' Q(s',a')`（off-policy）
+- SARSA 用實際 `Q(s',a')`（on-policy）
+並說明 SARSA 會把探索風險學進去，因此不一定走步數最短路徑。
+
+[Turn 5]
+User Prompt:
+如果是這樣的圖案 是否有必要到 500 Episodes?
+如果減少x軸 不是能更清楚看到前半部變化?
+我要你儘可能模仿老師圖（實線/虛線命名也要像）
+為何你的兩條線看起來差不多?
+
+Assistant Response:
+調整為老師常見視角:
+- 使用 50 runs 平均圖
+- 補前段 zoom 圖
+- 固定 `alpha=0.5`, `epsilon=0.1`
+再補做 tie-break 修正與步數上限對照測試，說明差異來源。
+
+[Turn 6]
+User Prompt:
+為何 results\reward_curve.png 的reward 震盪仍那麼大?
+先把舊圖與舊資料刪掉，不要保留。
+最後只給我最新 `results\policy_comparison.png` 與像老師那張一樣的 reward 圖。
+
+Assistant Response:
+刪除舊 `results/` 與舊實驗輸出資料夾，重新生成僅兩張圖:
+- `results/reward_curve.png`
+- `results/policy_comparison.png`
+並將 reward 圖風格改為接近老師範例（實線/虛線、標題、圖例命名、灰底樣式）。
+
+[Turn 7]
+User Prompt:
+把 readme.md 整理，確實展現圖片，補齊作業第 5、6 點。
+再把與作業有關的 prompt 與回應記錄存成 `conversation.log`，
+並在 README 提到這個檔案，最後 push 到 GitHub。
+
+Assistant Response:
+已重寫 README（含圖片展示、理論比較、結論要求）。
+已新增本檔 `conversation.log`。
+已在 README 加入 `conversation.log` 連結。
+並執行 commit 與 push。
