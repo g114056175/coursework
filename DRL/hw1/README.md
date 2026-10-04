@@ -32,6 +32,13 @@ An interactive **nxn Grid World** web application built with **Flask** and purel
 
 > **[Live Demo](https://huggingface.co/spaces/g114056175/DRL-hw1-demo)** *(Deployed on Hugging Face Spaces)*
 
+<details>
+<summary>更新 Hugging Face 展示</summary>
+
+在 coursework 倉庫設定 `HF_TOKEN` Actions secret 後，從 Actions 手動執行「DRL HW1 - Sync to Hugging Face」。工作流程只同步 `DRL/hw1`，不會隨一般提交自動更新既有 Space。
+
+</details>
+
 ---
 
 ## 📸 Screenshots

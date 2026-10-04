@@ -2,20 +2,23 @@
 
 研究所課程作業與成果，依課程分類。每份作業的說明與原始資料保留在對應子資料夾。
 
-| 課程 | 內容 |
-| --- | --- |
-| [AIOT](AIOT/) | [HW3](AIOT/hw3/)、[HW4](AIOT/hw4/)、[HW5](AIOT/hw5/)、[HW6](AIOT/hw6/) |
-| [DRL／深度強化學習](DRL/) | [DIC1](DRL/DIC1/)、[HW1](DRL/hw1/)、[HW2](DRL/hw2/)、[HW3](DRL/hw3/)、[期末成果](DRL/final-project/) |
-| [IR／資料檢索](IR/) | [school_data](IR/school_data/)：IR_HW5 的 JSON 資料 |
-| [DSDP／資料結構與資料處理](DSDP/) | [Data_Models_And_Processing](DSDP/Data_Models_And_Processing/)：時空人流預測 |
+| 課程 | 作業 | 原始更新 |
+| --- | --- | --- |
+| [AIOT](AIOT/) | [HW3](AIOT/hw3/) | 2025-10-24 |
+| AIOT | [HW4](AIOT/hw4/) | 2025-11-27 |
+| AIOT | [HW5](AIOT/hw5/) | 2025-12-03 |
+| AIOT | [HW6](AIOT/hw6/) | 2025-12-04 |
+| [DRL／深度強化學習](DRL/) | [DIC1](DRL/DIC1/) | 2026-03-04 |
+| DRL | [HW1](DRL/hw1/) | 2026-05-20 |
+| DRL | [HW2](DRL/hw2/) | 2026-04-15 |
+| DRL | [HW3](DRL/hw3/) | 2026-05-10 |
+| DRL | [期末成果](DRL/final-project/) | 2026-04-26 |
+| [IR／資料檢索](IR/) | [school_data](IR/school_data/) · IR_HW5 JSON 資料 | 2025-10-24 |
+| [DSDP／資料結構與資料處理](DSDP/) | [Data_Models_And_Processing](DSDP/Data_Models_And_Processing/) · 時空人流預測 | 2025-12-26 |
 
 ## 執行與展示
 
 各作業使用的 Python 套件、資料來源、模型及服務設定不同，請依子資料夾 README 操作。期末簡報、影片、模型與資料仍保留原有內容。
-
-網頁展示入口見 [課程展示頁](https://g114056175.github.io/coursework/)。原有倉庫與展示網址目前保留，供搬遷後人工核對。
-
-DRL HW1 的 Hugging Face 同步已調整為手動工作流程；在新倉庫設定 `HF_TOKEN` secret 後，從 Actions 執行「DRL HW1 - Sync to Hugging Face」。本次搬遷不會更新既有 Hugging Face Space。
 
 <details>
 <summary>搬遷與新增作業</summary>
